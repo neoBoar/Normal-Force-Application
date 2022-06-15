@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyScienceApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="description_text">Description Text</string>
+    <string name="_4_2">4.2</string>
+    <string name="calculate_the_normal_force">Calculate the Normal Force</string>
+    <string name="test_your_knowledge">Test your knowledge</string>
+    <string name="gravity_9_8">Gravity = 9.8</string>
+    <string name="cos_30_0_71">cos(30) = 0.71</string>
+    <string name="n_mg_x_cos_angle">N = mg x cos(angle)</string>
+    <string name="n">N</string>
+</resources>

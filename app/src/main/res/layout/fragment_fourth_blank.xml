@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".FourthBlankFragment">
+
+
+    <ImageView
+        android:id="@+id/weight3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="460dp"
+        android:rotation="30"
+        android:src="@drawable/weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/setMass3"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:rotation="30"
+        android:text="4.2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/weight3"
+        app:layout_constraintEnd_toEndOf="@+id/weight3"
+        app:layout_constraintStart_toStartOf="@+id/weight3"
+        app:layout_constraintTop_toTopOf="@+id/weight3" />
+
+    <TextView
+        android:id="@+id/submitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:minHeight="48dp"
+        android:text="@string/calculate_the_normal_force"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:minHeight="48dp"
+        android:text="@string/test_your_knowledge"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/table2"
+        android:layout_width="362dp"
+        android:layout_height="260dp"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/table"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+    <Button
+        android:id="@+id/backButton2"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="360dp"
+        app:backgroundTint="@color/white"
+        app:icon="?attr/homeAsUpIndicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/angleImage"
+        android:layout_width="133dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginBottom="408dp"
+        android:src="@drawable/angleimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gravTV2"
+        android:layout_width="135dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="casual"
+        android:text="@string/gravity_9_8"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/table2"
+        app:layout_constraintEnd_toEndOf="@+id/table2"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/table2" />
+
+    <TextView
+        android:id="@+id/weightTV2"
+        android:layout_width="148dp"
+        android:layout_height="31dp"
+        android:fontFamily="casual"
+        android:text="@string/cos_30_0_71"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gravTV2"
+        app:layout_constraintEnd_toEndOf="@+id/table2"
+        app:layout_constraintStart_toStartOf="@+id/table2"
+        app:layout_constraintTop_toBottomOf="@+id/angleImage" />
+
+    <TextView
+        android:id="@+id/equation"
+        android:layout_width="278dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="142dp"
+        android:fontFamily="casual"
+        android:text="@string/n_mg_x_cos_angle"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/labelN"
+        android:layout_width="38dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="90dp"
+        android:fontFamily="casual"
+        android:text="@string/n"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/labelM"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="90dp"
+        android:fontFamily="casual"
+        android:text="= m"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editM"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editN" />
+
+    <TextView
+        android:id="@+id/labelG"
+        android:layout_width="41dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="90dp"
+        android:fontFamily="casual"
+        android:text="x g"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editG"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editM" />
+
+    <TextView
+        android:id="@+id/labelX"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="90dp"
+        android:fontFamily="casual"
+        android:text="x "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editA"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editG" />
+
+    <TextView
+        android:id="@+id/editN"
+        android:layout_width="48dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="90dp"
+        android:background="#DDDDDD"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="0.0"
+        android:textColor="#8E6A00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/labelM"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/labelN" />
+
+    <EditText
+        android:id="@+id/editM"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="88dp"
+        android:background="#DDDDDD"
+        android:backgroundTint="#CFCFCF"
+        android:fontFamily="casual"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#DD2C00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/labelG"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/labelM" />
+
+    <EditText
+        android:id="@+id/editG"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="90dp"
+        android:background="#DDDDDD"
+        android:backgroundTint="#CFCFCF"
+        android:fontFamily="casual"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#DD2C00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/labelX"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/labelG" />
+
+    <EditText
+        android:id="@+id/editA"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="90dp"
+        android:background="#DDDDDD"
+        android:backgroundTint="#CFCFCF"
+        android:fontFamily="casual"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#DD2C00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/labelX" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Test Answer"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

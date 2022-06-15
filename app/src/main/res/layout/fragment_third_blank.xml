@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ThirdBlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/nextButton3"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/white"
+        android:backgroundTint="#FFFFFF"
+        android:text="Test Your Knowledge"
+        android:textColor="#000000"
+        app:backgroundTint="@color/white"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="360dp"
+        app:backgroundTint="@color/white"
+        app:icon="?attr/homeAsUpIndicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Tilt phone to change angle"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Change mass on the weight"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/normForceTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <ImageView
+        android:id="@+id/weight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="424dp"
+        android:src="@drawable/weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/table"
+        android:layout_width="362dp"
+        android:layout_height="260dp"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/table"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <TextView
+        android:id="@+id/normForceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintVertical_bias="0.836" />
+
+    <TextView
+        android:id="@+id/angleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/table"
+        app:layout_constraintEnd_toEndOf="@+id/table"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/table"
+        app:layout_constraintTop_toBottomOf="@+id/weight"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/weightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/table"
+        app:layout_constraintEnd_toEndOf="@+id/table"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/table"
+        app:layout_constraintTop_toBottomOf="@+id/angleTV"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <TextView
+        android:id="@+id/gravTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Gravity = 9.8"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/table"
+        app:layout_constraintEnd_toEndOf="@+id/table"
+        app:layout_constraintStart_toStartOf="@+id/table"
+        app:layout_constraintTop_toBottomOf="@+id/weightTV" />
+
+    <EditText
+        android:id="@+id/setMass"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:inputType="numberDecimal"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/weight"
+        app:layout_constraintEnd_toEndOf="@+id/weight"
+        app:layout_constraintStart_toStartOf="@+id/weight"
+        app:layout_constraintTop_toTopOf="@+id/weight" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

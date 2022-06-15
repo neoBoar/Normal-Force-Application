@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linedbackground"
+    tools:context=".SecondBlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/nextButton2"
+        android:layout_width="212dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/white"
+        android:backgroundTint="#FFFFFF"
+        android:text="How It Works"
+        android:textColor="#000000"
+        app:backgroundTint="@color/white"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backButton1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="360dp"
+        app:icon="?attr/homeAsUpIndicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:inputType="textPersonName|text"
+        android:minHeight="48dp"
+        android:text="How Normal Force Works"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/Scroll"
+        android:layout_width="409dp"
+        android:layout_height="593dp"
+        android:layout_marginTop="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="246dp"
+                android:fontFamily="casual"
+                android:text="In physics, various kinds of forces exist. One of them is the normal force. The normal force is defined as the force that any surface exerts on any other object. When an object is in a resting state we can find the resting normal force by using the following equation:"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/restingnormalforce" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="359dp"
+                android:fontFamily="casual"
+                android:text="Note that the gravitational acceleration at the Earth's surface is a constant: g = 9.8 m/s2.                                                        We can then work out the normal force applied to an object when the object in question is at an angle. To work out the normal force of an object on a decline we take principles from the resting normal force equation and then times this by cos(angle) as seen below"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/anglednormalforce"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:fontFamily="casual"
+                android:text="Note that for an object sitting on an incline, the normal force should be less than the weight of the object.                                                        Ref: https://www.wikihow.com/Find-Normal-Force"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
